@@ -6,17 +6,17 @@
             <ul>
                 <li>
                     <a href="https://github.com/aidanjinn" target="_blank">
-                        
+                        <img src=".svelte-kit/github.png" alt="GitHub" />
                     </a>
                 </li>
                 <li>
                     <a href="https://instagram.com/aidan.j.wendorf/" target="_blank">
-                        
+                        <img src=".svelte-kit/instagram.png" alt="Instagram" />
                     </a>
                 </li>
                 <li>
                     <a href="https://linkedin.com/in/aidanwendorf/" target="_blank">
-                        
+                        <img src=".svelte-kit/linkedin.png" alt="LinkedIn" />
                     </a>
                 </li>
             </ul>
