@@ -6,17 +6,17 @@
             <ul>
                 <li>
                     <a href="https://github.com/aidanjinn" target="_blank">
-                        <img src="src/github.png" alt="GitHub" />
+                        
                     </a>
                 </li>
                 <li>
                     <a href="https://instagram.com/aidan.j.wendorf/" target="_blank">
-                        <img src="src/instagram.png" alt="Instagram" />
+                        
                     </a>
                 </li>
                 <li>
                     <a href="https://linkedin.com/in/aidanwendorf/" target="_blank">
-                        <img src="src/linkedin.png" alt="LinkedIn" />
+                        
                     </a>
                 </li>
             </ul>
