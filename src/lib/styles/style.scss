@@ -1,9 +1,16 @@
-/* style.css */
+@keyframes sway {
+    0% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    100% { transform: translateX(-2px); }
+}
+
 body {
-	margin: 0;
-	background: #eee;
-	color: #333;
-	font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 main {
@@ -11,3 +18,57 @@ main {
 	margin: 2rem auto;
 	max-width: 40rem;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    padding: 0 0px;
+    font-size: 1.5em;
+}
+
+.text {
+    flex: 2;
+	margin-left: -50px;
+}
+
+.profile {
+    flex: 1;
+    margin-left:50px; /* Adjust spacing between text and profile picture */
+}
+
+.hi-there-box {
+    background-color: #007bff; /* Background color for the box */
+    border-radius: 20px; /* Rounded corners */
+    text-align: center; /* Center the text horizontally */
+    margin-bottom: -10px; /* Adjust spacing between Hi There section and header below it */
+    padding: 10px; /* Adjust padding to only surround the text */
+    display: inline-block; /* Make the box only as wide as the content */
+    overflow: hidden; /* Hide overflow of the emoji */
+}
+
+.intro-heading {
+    font-size: 1.25em; /* Adjusted font size for Hi There section */
+    color: #ffffff; /* Text color for Hi There section */
+    margin: 0; /* Remove default margin */
+}
+
+.emoji {
+    display: inline-block;
+    animation: sway 2s infinite alternate; /* Apply sway animation */
+}
+
+.hi-there-text {
+    display: inline-block;
+}
+
+.profile {
+	max-width: 300%;
+    border-radius: 50%; /* Make the image rounded */
+}
+
+.bold-text {
+	font-weight: bold;
+}
+

@@ -12,7 +12,7 @@
                     <a href="/about">About</a>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                    <a href="mailto:aidan.j.wendorf@gmail.com">Contact</a>
                 </li>
             </ul>
         </nav>
