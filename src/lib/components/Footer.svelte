@@ -1,4 +1,11 @@
 <!-- Footer.svelte -->
+<script>
+    import githubIcon from '../../static/github.png';
+    import instagramIcon from '../../static/instagram.png';
+    import linkedinIcon from '../../static/linkedin.png';
+</script>
+
+<!-- Footer.svelte -->
 <footer>
     <div class="container">
         <p>&copy; 2024 AidanWendorf</p>
@@ -6,23 +13,24 @@
             <ul>
                 <li>
                     <a href="https://github.com/aidanjinn" target="_blank">
-                        <img src="./github.png" alt="GitHub" />
+                        <img src={githubIcon} alt="GitHub" />
                     </a>
                 </li>
                 <li>
                     <a href="https://instagram.com/aidan.j.wendorf/" target="_blank">
-                        <img src="./instagram.png" alt="Instagram" />
+                        <img src={instagramIcon} alt="Instagram" />
                     </a>
                 </li>
                 <li>
                     <a href="https://linkedin.com/in/aidanwendorf/" target="_blank">
-                        <img src="./linkedin.png" alt="LinkedIn" />
+                        <img src={linkedinIcon} alt="LinkedIn" />
                     </a>
                 </li>
             </ul>
         </nav>
     </div>
 </footer>
+
 
 <style>
     footer {
