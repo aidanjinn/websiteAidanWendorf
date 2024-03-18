@@ -3,7 +3,7 @@
     import github from '$lib/github.png'
     import git from '$lib/Git.png'
     import C from '$lib/C++.png'
-    import Javascript from '$lib/Javascript.png'
+    import Javascript from '$lib/JavaScript.png'
     import HTML from '$lib/HTML5.png'
     import CSS from '$lib/CSS3.png'
     import React from '$lib/React.png'
