@@ -1,74 +1,90 @@
-@keyframes sway {
-    0% { transform: translateX(-2px); }
-    50% { transform: translateX(2px); }
-    100% { transform: translateX(-2px); }
-}
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #343a40;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    @keyframes sway {
+        0% { transform: translateX(-2px); }
+        50% { transform: translateX(2px); }
+        100% { transform: translateX(-2px); }
+    }
 
-main {
-	padding: 1rem;
-	margin: 2rem auto;
-	max-width: 40rem;
-}
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #343a40;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-.container {
-    max-width: 1000px;
-    margin: 40px auto;
-    display: flex;
-    align-items: center;
-    padding: 0 0px;
-    font-size: 1.5em;
-}
+    main {
+        padding: 1rem;
+        margin: 2rem auto;
+        max-width: 90%; /* Adjusted max-width for better responsiveness */
+    }
 
-.text {
-    flex: 2;
-	margin-left: -50px;
-}
+    .container {
+        max-width: 100%; /* Adjusted max-width for better responsiveness */
+        margin: 40px auto; /* Adjusted margin */
+        display: flex;
+        justify-content: space-between; /* Spread items along the main axis */
+        align-items: center; /* Center items vertically */
+        padding: 0 45px; /* Adjusted padding */
+        font-size: 1.2em; /* Adjusted font size for better readability on small screens */
+    }
 
-.profile {
-    flex: 1;
-    margin-left:50px; /* Adjust spacing between text and profile picture */
-}
+    .text {
+        flex: 1; /* Take up remaining space */
+        text-align: left; /* Align text to the left */
+    }
 
-.hi-there-box {
-    background-color: #007bff; /* Background color for the box */
-    border-radius: 20px; /* Rounded corners */
-    text-align: center; /* Center the text horizontally */
-    margin-bottom: -10px; /* Adjust spacing between Hi There section and header below it */
-    padding: 10px; /* Adjust padding to only surround the text */
-    display: inline-block; /* Make the box only as wide as the content */
-    overflow: hidden; /* Hide overflow of the emoji */
-}
+    .profile {
+        flex: 1; /* Take up remaining space */
+        margin-left: 20px; /* Add space between text and image */
+        max-width: 100%; /* Ensure image doesn't overflow on small screens */
+        border-radius: 50%; /* Make the image rounded */
+        display: block; /* Ensure image is a block element */
+        margin: 0 auto; /* Center the image horizontally */
+    }
 
-.intro-heading {
-    font-size: 1.25em; /* Adjusted font size for Hi There section */
-    color: #ffffff; /* Text color for Hi There section */
-    margin: 0; /* Remove default margin */
-}
+    .hi-there-box {
+        background-color: #007bff;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 10px; /* Adjust spacing between Hi There section and header below it */
+        padding: 10px;
+        display: inline-block;
+        overflow: hidden;
+    }
 
-.emoji {
-    display: inline-block;
-    animation: sway 2s infinite alternate; /* Apply sway animation */
-}
+    .intro-heading {
+        font-size: 1.25em;
+        color: #ffffff;
+        margin: 0;
+    }
 
-.hi-there-text {
-    display: inline-block;
-}
+    .emoji {
+        display: inline-block;
+        animation: sway 2s infinite alternate;
+    }
 
-.profile {
-	max-width: 300%;
-    border-radius: 50%; /* Make the image rounded */
-}
+    .hi-there-text {
+        display: inline-block;
+    }
 
-.bold-text {
-	font-weight: bold;
-}
+    .bold-text {
+        font-weight: bold;
+    }
+
+    /* Media Query for Mobile Devices */
+    @media only screen and (max-width: 600px) {
+        .container {
+            flex-direction: column; /* Stack items vertically on smaller screens */
+            text-align: center; /* Center text on smaller screens */
+        }
+
+        .profile {
+            margin-left: 0; /* Reset margin on smaller screens */
+            margin-top: 20px; /* Add margin between text and image on smaller screens */
+        }
+    }
+
+
 

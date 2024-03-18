@@ -13,17 +13,17 @@
             <ul>
                 <li>
                     <a href="https://github.com/aidanjinn" target="_blank">
-                        <img src= {github} alt="GitHub" />
+                        <img src={github} alt="GitHub" />
                     </a>
                 </li>
                 <li>
                     <a href="https://instagram.com/aidan.j.wendorf/" target="_blank">
-                        <img src= {linkedin} alt="Instagram" />
+                        <img src={instagram} alt="Instagram" />
                     </a>
                 </li>
                 <li>
                     <a href="https://linkedin.com/in/aidanwendorf/" target="_blank">
-                        <img src= {instagram} alt="LinkedIn" />
+                        <img src={linkedin} alt="LinkedIn" />
                     </a>
                 </li>
             </ul>
@@ -43,7 +43,7 @@
     }
 
     .container {
-        max-width: 1200px;
+        max-width: 90%; /* Adjusted max-width for better responsiveness */
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -64,7 +64,7 @@
     }
 
     nav ul li {
-        margin-right: 1rem;
+        margin-right: 0.5rem; /* Adjusted margin for better spacing */
     }
 
     nav ul li:last-child {
@@ -75,6 +75,8 @@
         color: #000;
         text-decoration: none;
         transition: color 0.3s ease;
+        display: flex; /* Ensuring the icon and text are aligned properly */
+        align-items: center;
     }
 
     nav ul li a:hover {
@@ -84,5 +86,6 @@
     img {
         width: 24px; /* Adjust icon size as needed */
         height: 24px;
+        margin-right: 0.25rem; /* Added margin for better spacing between icon and text */
     }
 </style>

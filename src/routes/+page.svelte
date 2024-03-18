@@ -1,6 +1,7 @@
 <script>
     import profile from '$lib/profile.jpg'
     import TechStackBox from '../lib/components/techStackBox.svelte';
+    import DownloadResume from '../lib/components/downloadResume.svelte';
 </script>
 
     <div class="container">
@@ -19,5 +20,6 @@
         </div>
     </div>
     <TechStackBox />
+    <DownloadResume />
     
 

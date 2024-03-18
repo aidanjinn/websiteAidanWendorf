@@ -11,70 +11,95 @@
 </script>
 
 <style>
-.outer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Center content vertically */
-    border-radius: 20px;
-    padding: 20px; /* Adjust padding as needed */
-    background-color: #e0e0e0; /* Background color for the outer container */
-    height: 40px; /* Set the height */
-    max-width: 100%; /* Limit the maximum width */
-      position: relative; /* Establish positioning context */
-}
+    .outer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #e0e0e0;
+        max-width: 100%;
+        position: relative;
+        max-width: 700px;
+        margin: 0 auto; /* Center the container horizontally */
+    }
 
-.tech-stack-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Center content vertically */
-}
+    .tech-stack-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Allow icons to wrap on smaller screens */
+    }
 
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center items vertically */
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
 
-.tech-stack-icons {
-    display: flex;
-    justify-content: center;
-}
+    .icon-container:hover {
+        background-color: #f0f0f0;
+    }
 
-.icon-container {
-    display: inline-block;
-    padding: 10px;
-    border-radius: 10px;
-    transition: background-color 0.3s ease; /* Smooth transition for highlight effect */
-}
+    .tech-icon {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        transition: filter 0.3s ease;
+    }
 
-.icon-container:hover {
-    background-color: #f0f0f0; /* Highlight color on hover */
-}
+    .tech-icon:hover {
+        filter: brightness(1.2);
+    }
 
-.tech-icon {
-    width: 50px; /* Set width and height for the icon */
-    height: 50px;
-    cursor: pointer; /* Change cursor to pointer on hover */
-    transition: filter 0.3s ease; /* Smooth transition for brightness effect */
-}
+    .tech-title {
+        font-size: 1.5em;
+        position: absolute;
+        top: -55px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 15px;
+        padding: 5px 10px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
 
-.tech-icon:hover {
-    filter: brightness(1.2); /* Increase brightness on hover */
-}
+    .icon-name {
+        text-align: center;
+        font-size: 0.8em;
+        font-weight: bold;
+        width: 100%; 
+    }
 
-.tech-title {
-    font-size: 1.5em; /* Adjust font size of the title */
-    position: absolute; /* Position above the container */
-    top: -55px; /* Adjust as needed to position above the container */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    border-radius: 15px; /* Rounded border */
-    padding: 5px 10px; /* Adjust padding as needed */
-    background-color: #fff; /* Background color for the title */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow */
-}
+    /* Media Query for Mobile Devices */
+    @media only screen and (max-width: 600px) {
+        .outer-container {
+            padding: 10px; /* Adjust padding for smaller screens */
+        }
 
-.icon-name {
-    text-align: center; /* Center the icon name */
-    font-size: 0.8em; /* Adjust font size of the name */
-    font-weight: bold;
-}
+        .icon-container {
+            padding: 5px; /* Adjust padding for smaller screens */
+        }
+
+        .tech-icon {
+            width: 40px; /* Adjust icon size for smaller screens */
+            height: 40px;
+        }
+
+        .tech-title {
+            font-size: 1.2em; /* Adjust title font size for smaller screens */
+            top: -45px; /* Adjust title position for smaller screens */
+        }
+
+        .icon-name {
+            font-size: 0.7em; /* Adjust icon name font size for smaller screens */
+        }
+    }
 </style>
+
 
 
 <div class="outer-container">

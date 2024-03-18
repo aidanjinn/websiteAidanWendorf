@@ -21,19 +21,25 @@
 
 <style>
     header {
+        top: 0;
+        position: fixed;
         padding: 1rem 0;
         background: linear-gradient(to right, #d4fc79, #96e6a1);
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        display: flex; /* Ensure header items are aligned properly */
+        justify-content: center; /* Center header items horizontally */
     }
 
     .container {
-        max-width: 1200px;
+        width: 100%;
+        max-width: 80%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
+    
     .logo {
         font-size: 1.5rem;
         font-weight: bold;
@@ -64,5 +70,13 @@
 
     nav ul li a:hover {
         color: #666;
+    }
+
+    /* Media Query for Small Screens */
+    @media screen and (max-width: 768px) {
+        header {
+            flex-direction: column; /* Stack items vertically on smaller screens */
+            align-items: center; /* Center items horizontally */
+        }
     }
 </style>
