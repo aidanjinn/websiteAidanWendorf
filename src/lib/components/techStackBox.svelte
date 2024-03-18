@@ -2,6 +2,12 @@
     // Import the icons you want to use
     import github from '$lib/github.png'
     import git from '$lib/Git.png'
+    import C from '$lib/C++.png'
+    import Javascript from '$lib/Javascript.png'
+    import HTML from '$lib/HTML5.png'
+    import CSS from '$lib/CSS3.png'
+    import React from '$lib/React.png'
+    import Vercel from '$lib/Vercel.png'
 </script>
 
 <style>
@@ -85,6 +91,42 @@
                 <img src={git} alt="Git Icon" class="tech-icon" title="Git">
             </a>
             <div class="icon-name">GitHub</div>
+        </div>
+        <div class="icon-container">
+            <a href="https://isocpp.org/">
+                <img src={C} alt="C++ Icon" class="tech-icon" title="C++">
+            </a>
+            <div class="icon-name">C++</div>
+        </div>
+        <div class="icon-container">
+            <a href="https://www.javascript.com/">
+                <img src={Javascript} alt="Javascript Icon" class="tech-icon" title="Javascript">
+            </a>
+            <div class="icon-name">Javascript</div>
+        </div>
+        <div class="icon-container">
+            <a href="https://www.w3.org/Style/CSS/Overview.en.html">
+                <img src={CSS} alt="CSS3" class="tech-icon" title="CSS3">
+            </a>
+            <div class="icon-name">CSS3</div>
+        </div>
+        <div class="icon-container">
+            <a href="https://html.spec.whatwg.org/multipage">
+                <img src={HTML} alt="HTML5" class="tech-icon" title="HTML5">
+            </a>
+            <div class="icon-name">HTML5</div>
+        </div>
+        <div class="icon-container">
+            <a href="https://react.dev">
+                <img src={React} alt="React" class="tech-icon" title="React">
+            </a>
+            <div class="icon-name">React</div>
+        </div>
+        <div class="icon-container">
+            <a href="https://vercel.com/">
+                <img src={Vercel} alt="Vercel" class="tech-icon" title="Vercel">
+            </a>
+            <div class="icon-name">Vercel</div>
         </div>
     </div>
 </div>
