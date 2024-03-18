@@ -26,7 +26,7 @@
         display: flex;
         justify-content: space-between; /* Spread items along the main axis */
         align-items: center; /* Center items vertically */
-        padding: 0 45px; /* Adjusted padding */
+        padding: 0 0px; /* Adjusted padding */
         font-size: 1.2em; /* Adjusted font size for better readability on small screens */
     }
 
@@ -89,10 +89,12 @@
         .container {
             flex-direction: column; /* Stack items vertically on smaller screens */
             text-align: center; /* Center text on smaller screens */
+
         }
 
         .profile {
-            margin-left: 0; /* Reset margin on smaller screens */
+            margin-left: auto; /* Center the image horizontally */
+            margin-right: auto;
             margin-top: 20px; /* Add margin between text and image on smaller screens */
         }
     }
