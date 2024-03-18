@@ -15,6 +15,7 @@
         max-width: 100%; /* Change the max-width to 100% */
         position: relative;
         margin-top: 20px;
+        margin-bottom: 40px;
         margin-left: auto;
         margin-right: auto;
         max-width: 100px;

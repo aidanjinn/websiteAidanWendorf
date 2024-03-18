@@ -63,11 +63,22 @@
     .emoji {
         display: inline-block;
         animation: sway 2s infinite alternate;
+        position: sticky;
+        top: 0; /* Stick the emoji section to the top of the viewport */
+        background-color: #007bff; /* Optional: Add background color to the emoji section */
+        z-index: 1; /* Ensure the emoji section stays above other content */
     }
-
-    .hi-there-text {
+    
+    .hi-there-box {
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 10px; /* Adjust spacing between Hi There section and header below it */
+        padding: 10px;
         display: inline-block;
+        overflow: hidden;
+        z-index: 1; /* Ensure the Hi There box stays above other content */
     }
+    
 
     .bold-text {
         font-weight: bold;

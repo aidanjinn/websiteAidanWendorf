@@ -29,6 +29,7 @@
         width: 100%;
         display: flex; /* Ensure header items are aligned properly */
         justify-content: center; /* Center header items horizontally */
+        z-index: 2; /* Ensure the header appears above other content */
     }
 
     .container {
