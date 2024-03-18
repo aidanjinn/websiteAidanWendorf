@@ -46,16 +46,6 @@
         margin: 0 auto; /* Center the image horizontally */
     }
 
-    .hi-there-box {
-        background-color: #007bff;
-        border-radius: 20px;
-        text-align: center;
-        margin-bottom: 10px; /* Adjust spacing between Hi There section and header below it */
-        padding: 10px;
-        display: inline-block;
-        overflow: hidden;
-    }
-
     .intro-heading {
         font-size: 1.25em;
         color: #ffffff;
@@ -72,9 +62,10 @@
     }
     
     .hi-there-box {
+        background-color: #007bff;
         border-radius: 20px;
         text-align: center;
-        margin-bottom: 10px; /* Adjust spacing between Hi There section and header below it */
+        margin-bottom: auto;
         padding: 10px;
         display: inline-block;
         overflow: hidden;
