@@ -7,12 +7,11 @@
     import HTML from '$lib/HTML5.png'
     import CSS from '$lib/CSS3.png'
     import React from '$lib/React.png'
-    import Vercel from '$lib/Vercel.png'
+    import Svelte from '$lib/Svelte.png'
 </script>
 
 <style>
     .outer-container {
-        margin-top: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -104,55 +103,55 @@
 
 
 <div class="outer-container">
-    <h2 class = "tech-title">Tooling</h2>
+    <h2 class="tech-title">Tooling</h2>
     <div class="tech-stack-icons">
         <div class="icon-container">
-            <a href="https://github.com">
+            <a href="https://github.com" target="_blank">
                 <img src={github} alt="GitHub Icon" class="tech-icon" title="GitHub">
             </a>
             <div class="icon-name">Git</div>
         </div>
         <div class="icon-container">
-            <a href="https://git-scm.com/">
+            <a href="https://git-scm.com/" target="_blank">
                 <img src={git} alt="Git Icon" class="tech-icon" title="Git">
             </a>
             <div class="icon-name">GitHub</div>
         </div>
         <div class="icon-container">
-            <a href="https://isocpp.org/">
+            <a href="https://isocpp.org/" target="_blank">
                 <img src={C} alt="C++ Icon" class="tech-icon" title="C++">
             </a>
             <div class="icon-name">C++</div>
         </div>
         <div class="icon-container">
-            <a href="https://www.javascript.com/">
+            <a href="https://www.javascript.com/" target="_blank">
                 <img src={Javascript} alt="Javascript Icon" class="tech-icon" title="Javascript">
             </a>
             <div class="icon-name">Javascript</div>
         </div>
         <div class="icon-container">
-            <a href="https://www.w3.org/Style/CSS/Overview.en.html">
+            <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">
                 <img src={CSS} alt="CSS3" class="tech-icon" title="CSS3">
             </a>
             <div class="icon-name">CSS3</div>
         </div>
         <div class="icon-container">
-            <a href="https://html.spec.whatwg.org/multipage">
+            <a href="https://html.spec.whatwg.org/multipage" target="_blank">
                 <img src={HTML} alt="HTML5" class="tech-icon" title="HTML5">
             </a>
             <div class="icon-name">HTML5</div>
         </div>
         <div class="icon-container">
-            <a href="https://react.dev">
+            <a href="https://react.dev" target="_blank">
                 <img src={React} alt="React" class="tech-icon" title="React">
             </a>
             <div class="icon-name">React</div>
         </div>
         <div class="icon-container">
-            <a href="https://vercel.com/">
-                <img src={Vercel} alt="Vercel" class="tech-icon" title="Vercel">
+            <a href="https://svelte.dev/" target="_blank">
+                <img src={Svelte} alt="Svlete" class="tech-icon" title="Svelte">
             </a>
-            <div class="icon-name">Vercel</div>
+            <div class="icon-name">Svelte</div>
         </div>
     </div>
 </div>

@@ -2,7 +2,6 @@
     import profile from '$lib/profile.jpg'
     import TechStackBox from '../lib/components/techStackBox.svelte';
     import DownloadResume from '../lib/components/downloadResume.svelte';
-    import Footer from '../lib/components/Footer.svelte';
 </script>
 
     <div class="container">
@@ -20,10 +19,7 @@
             <img class = "profile" src= {profile} alt="Profile Picture">
         </div>
     </div>
-    <div>
     <TechStackBox />
     <DownloadResume />
-    </div>
-    <Footer />
     
 
