@@ -24,7 +24,8 @@
 
     .container {
         max-width: 100%; /* Adjusted max-width for better responsiveness */
-        margin: 40px auto; /* Adjusted margin */
+        margin: 80px auto; /* Adjusted margin */
+        margin-bottom: 80px;
         display: flex;
         justify-content: space-between; /* Spread items along the main axis */
         align-items: center; /* Center items vertically */
@@ -35,6 +36,7 @@
     .text {
         flex: 1; /* Take up remaining space */
         text-align: center; /* Align text to the left */
+        font-size: 1.35em;
     }
 
     .profile {
