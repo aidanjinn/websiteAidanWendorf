@@ -103,7 +103,7 @@
 
 
 <div class="outer-container">
-    <h2 class="tech-title">Tooling</h2>
+    <h2 class="tech-title">Toolbox</h2>
     <div class="tech-stack-icons">
         <div class="icon-container">
             <a href="https://github.com" target="_blank">
