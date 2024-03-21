@@ -2,6 +2,7 @@
     import profile from '$lib/profile.jpg'
     import TechStackBox from '../lib/components/techStackBox.svelte';
     import DownloadResume from '../lib/components/downloadResume.svelte';
+    import Projects from '../lib/components/Projects.svelte';
 </script>
 
     <div class="container">
@@ -21,5 +22,6 @@
     </div>
     <TechStackBox />
     <DownloadResume />
+    <Projects />
     
 

@@ -109,13 +109,13 @@
             <a href="https://github.com" target="_blank">
                 <img src={github} alt="GitHub Icon" class="tech-icon" title="GitHub">
             </a>
-            <div class="icon-name">Git</div>
+            <div class="icon-name">Github</div>
         </div>
         <div class="icon-container">
             <a href="https://git-scm.com/" target="_blank">
                 <img src={git} alt="Git Icon" class="tech-icon" title="Git">
             </a>
-            <div class="icon-name">GitHub</div>
+            <div class="icon-name">Git</div>
         </div>
         <div class="icon-container">
             <a href="https://isocpp.org/" target="_blank">
