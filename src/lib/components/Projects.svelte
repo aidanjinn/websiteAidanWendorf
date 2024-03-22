@@ -16,7 +16,7 @@
     margin: 0 auto; /* Center horizontally */
     width: fit-content; /* Adjust width based on content */
     position: relative; /* Allow positioning */
-    z-index: 1; /* Ensure it's above other elements */
+    z-index: -1; /* Ensure it's above other elements */
     margin-bottom: 20px; /* Add some space below the title */
   }
 
