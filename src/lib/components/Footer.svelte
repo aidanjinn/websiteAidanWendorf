@@ -33,7 +33,7 @@
 
 <style>
     footer {
-        
+        position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
@@ -43,7 +43,7 @@
     }
 
     .container {
-        max-width: 90%; /* Adjusted max-width for better responsiveness */
+        max-width: 90%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -64,7 +64,7 @@
     }
 
     nav ul li {
-        margin-right: 0.5rem; /* Adjusted margin for better spacing */
+        margin-right: 0.5rem;
     }
 
     nav ul li:last-child {
@@ -75,7 +75,7 @@
         color: #000;
         text-decoration: none;
         transition: color 0.3s ease;
-        display: flex; /* Ensuring the icon and text are aligned properly */
+        display: flex;
         align-items: center;
     }
 
@@ -84,8 +84,14 @@
     }
 
     img {
-        width: 24px; /* Adjust icon size as needed */
+        width: 24px;
         height: 24px;
-        margin-right: 0.25rem; /* Added margin for better spacing between icon and text */
+        margin-right: 0.25rem;
+    }
+
+    /* Additional styles for main content */
+    /* Add appropriate class or style to your main content component */
+    .main-content {
+        margin-bottom: 80px; /* Adjust this value to match the footer height */
     }
 </style>
